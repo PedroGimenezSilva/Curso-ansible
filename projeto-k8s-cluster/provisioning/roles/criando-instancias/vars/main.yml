@@ -1,9 +1,11 @@
 ---
- vars file for criando-instancias
+#vars file for criando-instancias
  instance_type: t2.medium
  sec_group_name: giropops
  image: ami-0279c3b3186e54acd
- keypair: chaves-treinamento
- region: eu-central-1
+ keyfile: chave-ansible-02
+ region: us-east-1
  count: 3
- profile: giropops
+ profile: default
+ key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiYmEOW8tEgZ/VNgypwHsRmL1dyO46NT1NvcJ7RUkPPjLXmVw1O5rtD+ODGvFJMXtVV+TYem7HG+/sakiaTkmXHJSTcblQXNtxQ/OAIrXhEHpjafC0OHZ54+ObHrPCvrLEs5kc0emjC6uffd37yslicvCuYe4bFzxGbibsflAfHu91Gerbz+NvLP9FzJ5c4mCwR30ZFiNLAdEv4WM0bzCCpGFKlF+HorRtiv92LR/nrUf0QxjQRHFmrwOAI2UrfT5OQsDF45r5anREg6F//82bmf0yrZ6vThpE72dvJvRCnHB1ftK93m6SpOpj26NyqKIt0FspoLVpF9MpXiUCjO+lmNZzaHZRhFZcakE7bgaBaYHv8xYUuClDvt5l0Bx8u8uTNz4tcsqQssNbwjCyGEAkWWV9CfvipkvbcsePwfzTl1BnQ+ayaYBg2U7TG6Mfb83kM1tEEf1hxXi0uftOnTe93tEkI+tTG1PsHRg5qWF43W0ntmnrRbWJ46DbWcZxmHM= pedro.miranda@linx3.com
+
